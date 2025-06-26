@@ -28,7 +28,7 @@ for _ in range(100):
     
 print(type(data_list))
 df=pd.DataFrame(data_list)
-num=random.randint(1,10)
+num=random.randint(1,5)
 df.to_csv(f'Rawdata/data{num}.csv', index=False)
 # df.to_excel(f'data{random.randint(1,100)}.xlsx', index=False)
 print(f"Data generated and saved to Rawdata/data{num}.csv")
